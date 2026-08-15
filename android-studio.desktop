@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=Android Studio
+Comment=Build applications for Android devices.
+Exec=android-studio %F
+Icon=android-studio
+Terminal=false
+Categories=Development;IDE;
