@@ -50,7 +50,7 @@ jobs:
           provenance: mode=max
           sbom: true
       - name: Verify package
-        run: docker run --rm ghcr.io/containerpak/android-studio:main sh -c 'test -x /usr/bin/android-studio && test -f /usr/share/applications/android-studio.desktop'
+        run: docker run --rm ghcr.io/containerpak/android-studio:main sh -c 'test -L /usr/bin/android-studio && test ! -e /android-studio/bin/studio.sh && test -f /usr/share/applications/android-studio.desktop'
       - name: Publish summary
         run: echo "ghcr.io/containerpak/android-studio@${{ steps.build.outputs.digest }}" >> "$GITHUB_STEP_SUMMARY"
 
