@@ -1,10 +1,10 @@
 {
-  "$schema": "https://raw.githubusercontent.com/Containerpak/cpak/v2/schema/manifest-v2.json",
-  "manifest_version": "2.0",
+  "$schema": "https://raw.githubusercontent.com/Containerpak/cpak/v2/schema/manifest-v3.json",
+  "manifest_version": "3.0",
   "name": "Android Studio",
   "description": "Build applications for Android devices.",
   "version": "2026.1.3.8",
-  "image": "ghcr.io/containerpak/android-studio:main",
+  "image": "ghcr.io/containerpak/android-studio@sha256:a64f80c1dba5d86ce5d819bf57aaddd4b1d35bec7f98ddf08a9510e4e6a91834",
   "runtime_sources": [
     {
       "name": "android-studio-quail3-patch1-linux.tar.gz",
@@ -25,16 +25,11 @@
   "addons": [],
   "idle_time": 0,
   "override": {
-    "socketX11": true,
     "socketWayland": true,
     "socketPulseAudio": true,
-    "socketSessionBus": true,
-    "socketSystemBus": false,
     "socketSshAgent": true,
     "socketCups": false,
     "socketGpgAgent": true,
-    "socketAtSpiBus": true,
-    "socketBluetooth": false,
     "deviceDri": true,
     "deviceKvm": true,
     "deviceShm": true,
@@ -67,7 +62,6 @@
     "memoryMaxMB": 0,
     "cpuQuota": 0,
     "pidsMax": 0,
-    "asRoot": false,
-    "allowedHostCommands": []
+    "asRoot": false
   }
 }
