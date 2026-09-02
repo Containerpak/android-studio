@@ -3,14 +3,14 @@
   "manifest_version": "3.0",
   "name": "Android Studio",
   "description": "Build applications for Android devices.",
-  "version": "2026.1.3.8",
+  "version": "2026.1.4.7",
   "image": "ghcr.io/containerpak/android-studio@sha256:3cde08da5f62b2c8eb82f1eea437345e4b6b68e4913b65d0dc4d559bc74c0539",
   "runtime_sources": [
     {
-      "name": "android-studio-quail3-patch1-linux.tar.gz",
-      "url": "https://dl.google.com/dl/android/studio/ide-zips/2026.1.3.8/android-studio-quail3-patch1-linux.tar.gz",
-      "sha256": "5bd5ee5d6e747b13f82fba3241380bd358cc2f4a847815c8e860757df13dc35f",
-      "size": 1560605310,
+      "name": "android-studio-quail4-linux.tar.gz",
+      "url": "https://edgedl.me.gvt1.com/android/studio/ide-zips/2026.1.4.7/android-studio-quail4-linux.tar.gz",
+      "sha256": "4be240083df5ada290975d87d60fc212a3d38d4f258a1250989885a9dbc79980",
+      "size": 1536243986,
       "installer": "tar",
       "architecture": "amd64"
     }
