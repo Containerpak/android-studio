@@ -4,7 +4,7 @@
   "name": "Android Studio",
   "description": "Build applications for Android devices.",
   "version": "2026.1.4.7",
-  "image": "ghcr.io/containerpak/android-studio@sha256:905a81505c457088012cb2f8f97ee9d37522b4f7766626a5c9da6217e7816a70",
+  "image": "ghcr.io/containerpak/android-studio@sha256:74b8b7a46e74b3014a3da88d8e009c6be50414e03282f8d08c57f672fbfbdeaf",
   "runtime_sources": [
     {
       "name": "android-studio-quail4-linux.tar.gz",
